@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilory';
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: #333;
+    padding: 5px;
+}
+
+h2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: #333;
+    padding: 5px;
+    padding-top: 50px;
+}
+#loader {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid #ccc;
+    border-top-color: #333;
+    animation: spin 1s infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
